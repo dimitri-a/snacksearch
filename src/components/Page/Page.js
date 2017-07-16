@@ -24,7 +24,7 @@ class Page extends React.Component {
       <div className={s.root}>
         <div className={s.container}>
           <h1>
-            {title}
+            {title} this is the page component
           </h1>
           <div
             // eslint-disable-next-line react/no-danger
