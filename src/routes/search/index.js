@@ -9,17 +9,16 @@
 
 import React from 'react';
 import Layout from '../../components/Layout';
-import Contact from './Contact';
-
-const title = 'Contacdsfsdfsdft Us';
+import Page from '../../components/Page';
+import search from './search.md';
 
 function action() {
   return {
-    chunks: ['contact'],
-    title,
+    chunks: ['search'],
+    title: search.title,
     component: (
       <Layout>
-        <Contact title={title} />
+        <Page {...search} />
       </Layout>
     ),
   };

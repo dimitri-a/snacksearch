@@ -28,7 +28,7 @@ class Navigation extends React.Component {
           Log in
         </Link>
         <Link className={s.link} to="/search">
-          Log in
+          search bitch
         </Link>
         <span className={s.spacer}>or</span>
         <Link className={cx(s.link, s.highlight)} to="/register">
