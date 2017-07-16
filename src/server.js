@@ -140,6 +140,8 @@ app.get('*', async (req, res, next) => {
       res.redirect(route.status || 302, route.redirect);
       return;
     }
+    // todo remove
+    debugger;
 
     const data = { ...route };
     data.children = ReactDOM.renderToString(
